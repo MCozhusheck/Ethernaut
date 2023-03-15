@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "cheat",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CoinFlipCheater.sol": "CoinFlipCheater"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/CoinFlip.sol": {
+			"keccak256": "0xb95bc60e86408dd64b7966baa45eb5ef0590ec2c19e5975041c52077a4f87bcd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://087f97fd09c887feeee644218608b55eed2ece4776a3cdf6fcc369e69819421e",
+				"dweb:/ipfs/QmZKXyRfvRUud7RoWu64WgPhnPA3UrufZsRdLJ5XDYgRr2"
+			]
+		},
+		"contracts/CoinFlipCheater.sol": {
+			"keccak256": "0x63c6ff258ee61149399ace5245de300087c2d96b30574a5baaee897f6abfa89e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2d0c1eba0ba236268ed717bd83d0851127a434669e56500182f29afaf75afac0",
+				"dweb:/ipfs/QmPeMM4YWSSmaTafEPJynzCFwut9XHPSt35FcXgwWhFdYz"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_target",
+						"type": "address"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/transferTest.sol": "KingHack2"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/transferTest.sol": {
+			"keccak256": "0x5c6e1f74d9dc096382d6dbd158daa6e3dbbee966a7439e75b7a9d6445c77d4b1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://20ff5f4fb9c10d3fd037e74bb57e285a82ca7cc5268e9b27a38a10a7cf3e248b",
+				"dweb:/ipfs/QmRx6SkZbu9Fji3qosbM6DNnSE2JkGHN7yA5YJZdUbsLve"
+			]
+		}
+	},
+	"version": 1
+}

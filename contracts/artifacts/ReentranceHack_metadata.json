@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_reentrance",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Reentrance.sol": "ReentranceHack"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Reentrance.sol": {
+			"keccak256": "0x316fb3e7bf686bd45d60e8985e443950af21dcc6f39cc81b4c75470bc97abc3e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8ca71ff1998a2225a347cbca517c69e19cdcde609b99265ecabda937412f1448",
+				"dweb:/ipfs/QmQnz8ubTthQvPxvPe2BnLpShzFBU5YyGWn3EoW452uVkD"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v3.0.0/contracts/math/Math.sol": {
+			"keccak256": "0x6c234834003dfb86e2c23d12dfdde7cc01e78013d71b52162cb308b4873562cb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f0e3f39b2ec26694a42c89a5d9e489d5228f1880fcf5e375c5c975ba816e5ffe",
+				"dweb:/ipfs/QmUErheHopnbBUSLDQAtWsmw6HsEvqTNp1QiBEuSJhmhHn"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v3.0.0/contracts/math/SafeMath.sol": {
+			"keccak256": "0xaa0e11a791bc975d581a4f5b7a8d9c16a880a354c89312318ae072ae3e740409",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://982d8b344f76193834260436d74c81e5a8f9e89106bb4cd72bbaabda4f3f59c2",
+				"dweb:/ipfs/QmSrvP5TkQRhKDVCTpsV3uaKLBhkt7PjUY89vdtM9o5ybK"
+			]
+		}
+	},
+	"version": 1
+}

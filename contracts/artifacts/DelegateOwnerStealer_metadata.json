@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "takeOwnership",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Delegate.sol": "DelegateOwnerStealer"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Delegate.sol": {
+			"keccak256": "0xb2a2d00338e3be7da1fb531c3b2a8371b3d853997f9ea0360739f7280118a686",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2422a98a36fbfe23b2e854f97a271ce88bbd0af85ab14ef0cd1d2f969c7bb1bb",
+				"dweb:/ipfs/QmbLFmMzpwqXvvXT7CAnj6Zg3wtEtnmgHe65kWucCyjAzK"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "telephoneAddress",
+						"type": "address"
+					}
+				],
+				"name": "stealTelephone",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TelephoneStealer.sol": "TelephoneStealer"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Telephone.sol": {
+			"keccak256": "0xc388bc8065194685c404d2183160daae439b55a7b393cf328a29a4e72122d163",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7d23fc33502fc4d14f5587af706845a16f6cdb5b862d819bddaa255c12467f26",
+				"dweb:/ipfs/QmVXn1ka8XMdfxg77fTLK4F23Aiy658iKBPWCQj6w1n9MU"
+			]
+		},
+		"contracts/TelephoneStealer.sol": {
+			"keccak256": "0x8dbcb9af2b8cc4b7308cadfcd1fb2fb16abd1cbbbcc4e5ce7d218eba3f6b0d31",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f69fdee6808276aec813847070f24598dc7fe5f549a37557f22cca1469e689d1",
+				"dweb:/ipfs/QmPhKtvyiH9yFs8nTiNaLTMYY22yq7vdFMFarysLeaZtu5"
+			]
+		}
+	},
+	"version": 1
+}

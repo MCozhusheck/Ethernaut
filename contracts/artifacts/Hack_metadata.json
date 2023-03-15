@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract GatekeeperTwo",
+						"name": "gate",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/GatekeeperTwo.sol": "Hack"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/GatekeeperTwo.sol": {
+			"keccak256": "0x56dad0b3a8737000c83527e524d6d8e20192aa71f0e244143780dc2fc37456e8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0d8932cbe824279bb76718c25b2aaeed64bc93f344dce07c643e68b48ea51d18",
+				"dweb:/ipfs/QmUjcKSkh7YNdiQtGhXLuDxgpSY8VGxKRuivKekNhv4PPT"
+			]
+		}
+	},
+	"version": 1
+}

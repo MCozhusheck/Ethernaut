@@ -8,32 +8,6 @@
 			{
 				"inputs": [
 					{
-						"internalType": "contract Preservation",
-						"name": "target",
-						"type": "address"
-					}
-				],
-				"name": "attack",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
 						"internalType": "uint256",
 						"name": "_time",
 						"type": "uint256"
@@ -42,32 +16,6 @@
 				"name": "setTime",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "timeZone1Library",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "timeZone2Library",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -84,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Preservation.sol": "Hack"
+			"contracts/Preservation.sol": "LibraryContract"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},

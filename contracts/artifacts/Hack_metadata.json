@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.0+commit.c7dfd78e"
+		"version": "0.8.20+commit.a1b79de6"
 	},
 	"language": "Solidity",
 	"output": {
@@ -8,67 +8,13 @@
 			{
 				"inputs": [
 					{
-						"internalType": "contract Preservation",
+						"internalType": "contract IAlienCodex",
 						"name": "target",
 						"type": "address"
 					}
 				],
-				"name": "attack",
-				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_time",
-						"type": "uint256"
-					}
-				],
-				"name": "setTime",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "timeZone1Library",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "timeZone2Library",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
+				"type": "constructor"
 			}
 		],
 		"devdoc": {
@@ -84,9 +30,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Preservation.sol": "Hack"
+			"contracts/AlienCodex.sol": "Hack"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -98,12 +44,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Preservation.sol": {
-			"keccak256": "0xd7eaebd560ce77f84b28023d97defdc0dd63ea5e376eb79a0131c9a0f7a96694",
+		"contracts/AlienCodex.sol": {
+			"keccak256": "0x73e7ea7b135a8cbdeebc6255d5125e697598ca8b0d8da85abba599c185246a05",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1bdff95a681ec6b8059bcbaaf175e4ccb76720d429cc17037a12fc8189e420d0",
-				"dweb:/ipfs/QmWxWJZufgNCcgK1TYVzhVVubFyFFoAwDBhqV37tPFv7Js"
+				"bzz-raw://0892d8c4db9008e278ec37ac809396bda058ad6b521666db28922c8051a1bafb",
+				"dweb:/ipfs/QmSKsaVDe2cqHr5TKRR6E1ph7VcA4VZWbVrcex4cKWXn5c"
 			]
 		}
 	},

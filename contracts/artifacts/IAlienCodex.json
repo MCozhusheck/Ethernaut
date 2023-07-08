@@ -50,7 +50,7 @@
 		"gasEstimates": null,
 		"methodIdentifiers": {
 			"codex(uint256)": "94bd7569",
-			"make_contact()": "58699c55",
+			"makeContact()": "328b52cb",
 			"owner()": "8da5cb5b",
 			"retract()": "47f57b32",
 			"revise(uint256,bytes32)": "0339f300"
@@ -78,7 +78,7 @@
 		},
 		{
 			"inputs": [],
-			"name": "make_contact",
+			"name": "makeContact",
 			"outputs": [],
 			"stateMutability": "nonpayable",
 			"type": "function"

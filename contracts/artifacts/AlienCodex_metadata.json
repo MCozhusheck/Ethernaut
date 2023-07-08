@@ -24,6 +24,15 @@
 				"type": "function"
 			},
 			{
+				"constant": false,
+				"inputs": [],
+				"name": "makeContact",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"constant": true,
 				"inputs": [],
 				"name": "contact",
@@ -41,15 +50,6 @@
 				"constant": false,
 				"inputs": [],
 				"name": "retract",
-				"outputs": [],
-				"payable": false,
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"constant": false,
-				"inputs": [],
-				"name": "make_contact",
 				"outputs": [],
 				"payable": false,
 				"stateMutability": "nonpayable",
@@ -110,9 +110,9 @@
 	},
 	"sources": {
 		"contracts/AlienCodex.sol": {
-			"keccak256": "0x04ab90638fc0338372d77db4dcd2b8c1c4decf198b29addacb015a2f60b6dd42",
+			"keccak256": "0x21ff8c825b6031000b556103d5c7973a272debf5b5be26d87141e0ebdb4c649b",
 			"urls": [
-				"bzzr://5eadc3570bff90bff3cd6e2dd0833111630e7f41f0b0791f4a09c8d1bbde3e88"
+				"bzzr://a08a66ef6fe0c8a98a9d30501a20e96b28fc88f720e4c2cec87d3bf839ddd5ca"
 			]
 		}
 	},

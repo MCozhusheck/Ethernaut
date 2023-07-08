@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.20+commit.a1b79de6"
+		"version": "0.8.19+commit.7dd6d404"
 	},
 	"language": "Solidity",
 	"output": {
@@ -32,7 +32,7 @@
 		"compilationTarget": {
 			"contracts/AlienCodex.sol": "Hack"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -45,11 +45,11 @@
 	},
 	"sources": {
 		"contracts/AlienCodex.sol": {
-			"keccak256": "0x73e7ea7b135a8cbdeebc6255d5125e697598ca8b0d8da85abba599c185246a05",
+			"keccak256": "0x7f9bfd0a50979fbb0333eb473b4a74c7b42ae662fe48268a3a21a8dd407669a9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0892d8c4db9008e278ec37ac809396bda058ad6b521666db28922c8051a1bafb",
-				"dweb:/ipfs/QmSKsaVDe2cqHr5TKRR6E1ph7VcA4VZWbVrcex4cKWXn5c"
+				"bzz-raw://37838fd1c6b490e42ca989e2f1ca0757f5c4eb25467bc29f88898f1f637a76d6",
+				"dweb:/ipfs/QmbsXmPfNCxRT2ERh74iSpPWnGpZ5dwXTQWQz47qEp78Bu"
 			]
 		}
 	},

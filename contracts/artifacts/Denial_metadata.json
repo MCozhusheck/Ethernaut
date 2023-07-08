@@ -6,15 +6,63 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "contractBalance",
+				"outputs": [
 					{
-						"internalType": "contract Denial",
-						"name": "target",
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
 						"type": "address"
 					}
 				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "partner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_partner",
+						"type": "address"
+					}
+				],
+				"name": "setWithdrawPartner",
+				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			},
 			{
 				"stateMutability": "payable",
@@ -34,7 +82,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Denial.sol": "Hack"
+			"contracts/Denial.sol": "Denial"
 		},
 		"evmVersion": "paris",
 		"libraries": {},

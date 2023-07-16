@@ -8,7 +8,7 @@
 			{
 				"inputs": [
 					{
-						"internalType": "contract Dex",
+						"internalType": "contract DexTwo",
 						"name": "target",
 						"type": "address"
 					}
@@ -55,7 +55,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Dex.sol": "Hack"
+			"contracts/Dex2.sol": "Hack"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -109,12 +109,12 @@
 				"dweb:/ipfs/QmRK2Y5Yc6BK7tGKkgsgn3aJEQGi5aakeSPZvS65PV8Xp3"
 			]
 		},
-		"contracts/Dex.sol": {
-			"keccak256": "0x5e6350da6056688cba957a8e7bf8aa29765cfaa456a1b1208d49707874a2cbe7",
+		"contracts/Dex2.sol": {
+			"keccak256": "0x8ce5443422a9cd70d945782612a0c0d9a94fb22f287479c1753862deffe59080",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0a094fadaabf6ff24c52d8b4f56df49939b59373c145f9260b03fafc540ced71",
-				"dweb:/ipfs/QmYomXhg69JiodvJteTYLMAivMy3cvEuSXcSPbptazSbxw"
+				"bzz-raw://afa31d73df86d2c5421271f4c70716b9331d93f6bd3e3def894740d6614c2882",
+				"dweb:/ipfs/QmQ8YhQwMgjRyEDUo4RPe9oZNgZnRnRjnScbX38cwRFTt6"
 			]
 		}
 	},

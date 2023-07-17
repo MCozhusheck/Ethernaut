@@ -9,16 +9,27 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "contract_address",
+						"name": "_implementation",
 						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_initData",
+						"type": "bytes"
 					}
 				],
-				"stateMutability": "payable",
+				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
 			{
-				"inputs": [],
-				"name": "hack",
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "_upgradeTo",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -37,7 +48,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/PuzzleWallet.sol": "Hack"
+			"contracts/PuzzleWallet.sol": "UpgradeableProxy"
 		},
 		"evmVersion": "paris",
 		"libraries": {},

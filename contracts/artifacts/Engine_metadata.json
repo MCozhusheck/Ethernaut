@@ -7,7 +7,20 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "destroy",
+				"name": "horsePower",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "initialize",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -15,14 +28,32 @@
 			{
 				"inputs": [
 					{
-						"internalType": "contract Engine",
-						"name": "target",
+						"internalType": "address",
+						"name": "newImplementation",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "upgradeToAndCall",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "upgrader",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
 						"type": "address"
 					}
 				],
-				"name": "hack",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -39,7 +70,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Motorbike.sol": "Hack"
+			"contracts/Motorbike.sol": "Engine"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},

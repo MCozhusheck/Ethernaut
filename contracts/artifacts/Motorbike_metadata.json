@@ -6,24 +6,19 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "destroy",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
-						"internalType": "contract Engine",
-						"name": "target",
+						"internalType": "address",
+						"name": "_logic",
 						"type": "address"
 					}
 				],
-				"name": "hack",
-				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
 			}
 		],
 		"devdoc": {
@@ -39,7 +34,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Motorbike.sol": "Hack"
+			"contracts/Motorbike.sol": "Motorbike"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},

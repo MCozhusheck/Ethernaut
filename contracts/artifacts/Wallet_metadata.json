@@ -6,13 +6,7 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "contract GoodSamaritan",
-						"name": "_samaritan",
-						"type": "address"
-					}
-				],
+				"inputs": [],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
@@ -23,7 +17,57 @@
 			},
 			{
 				"inputs": [],
-				"name": "hack",
+				"name": "OnlyOwner",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "coin",
+				"outputs": [
+					{
+						"internalType": "contract Coin",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "dest_",
+						"type": "address"
+					}
+				],
+				"name": "donate10",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "contract Coin",
+						"name": "coin_",
+						"type": "address"
+					}
+				],
+				"name": "setCoin",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -31,12 +75,12 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
+						"internalType": "address",
+						"name": "dest_",
+						"type": "address"
 					}
 				],
-				"name": "notify",
+				"name": "transferRemainder",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -55,7 +99,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/GoodSamaritan.sol": "Hack"
+			"contracts/GoodSamaritan.sol": "Wallet"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},

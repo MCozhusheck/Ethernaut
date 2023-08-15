@@ -8,8 +8,8 @@
 			{
 				"inputs": [
 					{
-						"internalType": "contract GoodSamaritan",
-						"name": "_samaritan",
+						"internalType": "address",
+						"name": "wallet_",
 						"type": "address"
 					}
 				],
@@ -17,26 +17,54 @@
 				"type": "constructor"
 			},
 			{
-				"inputs": [],
-				"name": "NotEnoughBalance",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "current",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "required",
+						"type": "uint256"
+					}
+				],
+				"name": "InsufficientBalance",
 				"type": "error"
 			},
 			{
-				"inputs": [],
-				"name": "hack",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "dest_",
+						"type": "address"
+					},
+					{
 						"internalType": "uint256",
-						"name": "amount",
+						"name": "amount_",
 						"type": "uint256"
 					}
 				],
-				"name": "notify",
+				"name": "transfer",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -55,7 +83,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/GoodSamaritan.sol": "Hack"
+			"contracts/GoodSamaritan.sol": "Coin"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},

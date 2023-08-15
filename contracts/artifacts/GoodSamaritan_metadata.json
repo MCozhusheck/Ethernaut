@@ -6,39 +6,47 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "contract GoodSamaritan",
-						"name": "_samaritan",
-						"type": "address"
-					}
-				],
+				"inputs": [],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
 			{
 				"inputs": [],
-				"name": "NotEnoughBalance",
-				"type": "error"
+				"name": "coin",
+				"outputs": [
+					{
+						"internalType": "contract Coin",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "hack",
-				"outputs": [],
+				"name": "requestDonation",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "enoughBalance",
+						"type": "bool"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "wallet",
+				"outputs": [
 					{
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
+						"internalType": "contract Wallet",
+						"name": "",
+						"type": "address"
 					}
 				],
-				"name": "notify",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -55,7 +63,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/GoodSamaritan.sol": "Hack"
+			"contracts/GoodSamaritan.sol": "GoodSamaritan"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},

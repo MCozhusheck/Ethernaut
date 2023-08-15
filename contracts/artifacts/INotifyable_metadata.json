@@ -8,29 +8,6 @@
 			{
 				"inputs": [
 					{
-						"internalType": "contract GoodSamaritan",
-						"name": "_samaritan",
-						"type": "address"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "NotEnoughBalance",
-				"type": "error"
-			},
-			{
-				"inputs": [],
-				"name": "hack",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
 						"internalType": "uint256",
 						"name": "amount",
 						"type": "uint256"
@@ -55,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/GoodSamaritan.sol": "Hack"
+			"contracts/GoodSamaritan.sol": "INotifyable"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
